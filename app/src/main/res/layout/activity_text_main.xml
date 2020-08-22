@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--
+    wrap_content:
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World" />
+
+    <!--글자를 12sp보다 작아질 경우 스마트폰에서 잘 보이지 않을 가능성이 높다-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="색상을 바꿔보자"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:background="#FFFF8D"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잘부탁드립니다~"
+        android:textSize="18sp"/>
+
+</LinearLayout>
